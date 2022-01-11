@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Roboto:ital@1&family=The+Nautigal:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px 15px;
+    padding: 0;
+    position: relative;
+    background-color: #F3DDBF;
+}
+.nav-container{
+    width: 100%;
+    position: relative;
+}
+.navcontent{
+    width: 100%;
+    height: 60px;
+}
+.navcontent ul {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: 60px;
+    position: relative;
+    background-color: white;
+}
+.navcontent ul li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0 15px;
+}
+.navcontent ul li a{
+    text-decoration: none;
+    color: #585252;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 12px;
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navcontent ul li:hover a{
+    color: #FF9200 ;
+    font-size: 13px;
+}
+h1{
+    text-align: center;
+    margin: auto auto 20px 70px;
+    display: block;
+    font-size: 50px;
+    font-family: 'The Nautigal', cursive;
+    letter-spacing: 5px;
+}
+.content{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    max-width: 100%;
+    margin-top: 20px;
+    border: 2px solid #A1A2A2;
+    padding: 5px;
+}
+.text{
+    font-size: 18px;
+}
+.moretext{
+    display: none;
+}
+.read-more-btn{
+    padding: 15px 60px;
+    background-color: rgb(149, 170, 197);
+    color: rgb(53, 49, 49);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.text.show-more .moretext{
+    display: inline;
+}
+.text.show-more .dot{
+    display: none;
+}
+.read-more-btn-2{
+    padding: 15px 60px;
+    background-color: rgb(149, 170, 197);
+    color: rgb(53, 49, 49);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}

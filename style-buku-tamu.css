@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Roboto:ital@1&family=The+Nautigal:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px 15px;
+    padding: 0;
+    position: relative;
+    background-color: #F3DDBF;
+}
+.nav-container{
+    width: 100%;
+    position: relative;
+}
+.navcontent{
+    width: 100%;
+    height: 60px;
+}
+.navcontent ul {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: 60px;
+    position: relative;
+    background-color: white;
+}
+.navcontent ul li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0 15px;
+}
+.navcontent ul li a{
+    text-decoration: none;
+    color: #585252;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 12px;
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navcontent ul li:hover a{
+    color: #FF9200 ;
+    font-size: 13px;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: ;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    margin: auto auto 20px 70px;
+    display: block;
+    font-size: 50px;
+    font-family: 'The Nautigal', cursive;
+    letter-spacing: 5px;
+}
+h2{
+    text-align: center;
+    margin: auto auto 20px 70px;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+.konten{
+    margin: 10px auto;
+    padding: 10px;
+}
+.konten{
+    text-align: justify;
+}
+.form-border{
+    border: 2px solid #A1A2A2 ;
+    max-width: 560px;
+    margin-left: 470px;
+}
+.form form{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;;
+    letter-spacing: 2px;
+}
+.input-text{
+    height: 30px;
+    font-size: 18px;
+}
+.radio{
+    margin-top: 7px;
+}
+.select{
+    margin-top: 7px;
+    width: 100px;
+    height: 20px;
+}
+.button-send{
+    margin-top: -50px;
+    width: 70px;
+    height: 30px;
+    background-color: #00FF2D;
+    cursor: pointer;
+}
+.button-reset{
+    margin-top: -50px;
+    width: 70px;
+    height: 30px;
+    background-color: #F73415 ;
+    cursor: pointer;
+}

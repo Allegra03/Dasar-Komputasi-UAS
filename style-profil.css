@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Roboto:ital@1&family=The+Nautigal:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px 15px;
+    padding: 0;
+    position: relative;
+    background-color: #F3DDBF;
+}
+.nav-container{
+    width: 100%;
+    position: relative;
+}
+.navcontent{
+    width: 100%;
+    height: 60px;
+}
+.navcontent ul {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: 60px;
+    position: relative;
+    background-color: white;
+}
+.navcontent ul li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0 15px;
+}
+.navcontent ul li a{
+    text-decoration: none;
+    color: #585252;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 12px;
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navcontent ul li:hover a{
+    color: #FF9200 ;
+    font-size: 13px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    font-weight: normal;
+    padding: 8px;
+    text-align: right;
+    border-bottom: 2px solid red;
+}
+td {
+    font-weight: normal;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+.grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #fffff;
+      padding: 10px;
+}
+.grid-item {
+      background-color: rgba(0, 0, 0, 0);
+      border: 1px solid rgba(0, 0, 0, 0);
+      padding: 20px;
+         font-size: 30px;
+      text-align: center;
+  }
+  h1 {
+      text-align: center;
+      margin: auto auto 20px 70px;
+      display: block;
+      font-size: 50px;
+      font-family: 'The Nautigal', cursive;
+      letter-spacing: 5px;
+  }
+  h2 {
+      text-align: center;
+  }
+  a {
+      font-size: 20px;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: ;
+    padding: 10px;
+}
+
+.grid-container2 > div {
+    background-color: ;
+    border:;
+    text-align: center;
+    font-size: 30px;
+}
+.fotoku {
+    margin top: 1000px;
+}
+center {
+    background-image: url("Awan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Roboto:ital@1&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px 15px;
+    padding: 0;
+    position: relative;
+    background-color: #F3DDBF;
+}
+.nav-container{
+    width: 100%;
+    position: relative;
+}
+.navcontent{
+    width: 100%;
+    height: 60px;
+}
+.navcontent ul {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: 60px;
+    position: relative;
+    background-color: white;
+}
+.navcontent ul li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0 15px;
+}
+.navcontent ul li a{
+    text-decoration: none;
+    color: #585252;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 12px;
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navcontent ul li:hover a{
+    color: #FF9200 ;
+    font-size: 13px;
+}
+.konten-wrap{
+    width: 100%;
+    position: relative;
+    background-color: #F3DDBF;
+}
+.konten-wrap h2{
+    margin: auto auto 20px 400px;
+    display: block;
+    font-size: 50px;
+    font-family: 'The Nautigal', cursive;
+    letter-spacing: 5px;
+}
+.jam_digital{
+    overflow: hidden;
+    width: 330px;
+    margin: 20px auto;
+    margin-left: 625px;
+}
+.kotak{
+    float: left;
+    width: 80px;
+    height: 100px;
+}
+.jam_digital p {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.button{
+    overflow: hidden;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+button{
+    background-color: #DFCBB1 ;
+    width: 100px;
+    height: 60px;
+}
+footer p{
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Blog Ku</title>
+    <link rel="stylesheet" href="style-beranda.css">
+</head>
+<body>
+    <div class="konten-wrap">        
+        <h2>--Selamat Datang di Web Blog Ku...--</h2>
+        <p></p>
+    </div>
+    <!--Navbar-->
+    <div class="nav-container">
+        <div class="navcontent">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Profil.html">About</a></li>
+                <li><a href="Artikel.html">Blog</a></li>
+                <li><a href="Buku Tamu.php">Buku Tamu</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Akhir Navbar-->
+
+    <!--Konten Home-->
+    <h1 style="text-align: center;">=== Waktu Sekarang ===</h1>
+    <h3 align="center" id="tanggal"></h3>
+    <div class="jam_digital">
+        <div class="kotak">
+            <p id="jam"></p>
+        </div>
+        <div class="kotak">
+            <p id="menit"></p>
+        </div>
+        <div class="kotak">
+            <p id="detik"></p>
+        </div>
+    </div>
+    <div class="button">
+        <a href="https://saweria.co/allegraazhari"><button>Klik Disini</button></a>
+    </div>
+    <!--Akhir Konten Home-->
+
+    <script>
+        var tgl = new Date();
+            document.getElementById("tanggal").innerHTML = "Waktu Akses " + tgl;
+            
+            window.setTimeout("waktu()", 1000);
+            function waktu(){
+                var waktu = new Date();
+                setTimeout("waktu()", 1000);
+                document.getElementById("jam").innerHTML = waktu.getHours();
+                document.getElementById("menit").innerHTML = waktu.getMinutes();
+                document.getElementById("detik").innerHTML = waktu.getSeconds();
+            }
+            // mengubah warna css perdetik
+            var i=0;
+            function change(){
+                var classJamDigital = document.getElementsByClassName("jam_digital");
+
+                classJamDigital[0].style.backgroundColor = color[i];
+                i=(i+1)%color.length;
+            }
+            setInterval(change,1000);
+    </script>
+
+        <!--Footer-->
+        <footer>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <p>Copyright @2022 Allegra Azhari Zain</p>
+        </footer>
+</body>
+</html>
